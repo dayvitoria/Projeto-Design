@@ -19,5 +19,11 @@
     color: #333;
 }
 .right{
-    margin-left:560px;
+    margin-left:auto;
+}
+
+@media screen and (max-width: 500px){
+	.right{
+		margin-left: auto;
+	}
 }
